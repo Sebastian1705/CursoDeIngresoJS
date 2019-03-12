@@ -1,14 +1,8 @@
-/* 
-	Debemos lograr tomar un dato por 'PROMPT' 
-	y lo muestro por 'getElementById' al presionar el botón 'MOSTRAR'
-*/
+/* 	Debemos lograr tomar un dato por 'PROMPT' 
+	y lo muestro por 'getElementById' al presionar el botón 'MOSTRAR'*/
 function Mostar()
 {
-	var nombre;
-	nombre = prompt("ingresar nombre");
+	var nombre = prompt("ingresar nombre");
 	document.getElementById("elNombre").value = nombre;
-	
-
-
 }
 
