@@ -1,9 +1,7 @@
 function Mostrar()
 {
-
 	var contador=0;
 	var acumulador = 0;
-
 	while(contador<5)
 	{
 		contador++;
@@ -17,8 +15,6 @@ function Mostrar()
 		acumulador = acumulador + numero;
 		console.log("suma: "+acumulador);
 	}
-
-document.getElementById('suma').value=acumulador;
-document.getElementById('promedio').value=acumulador/contador;
-
-}//FIN DE LA FUNCIÓN
+	document.getElementById('suma').value=acumulador;
+	document.getElementById('promedio').value=acumulador/contador;
+}
