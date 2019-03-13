@@ -1,6 +1,6 @@
 function Mostrar()
 {
-	numero=10;
+	numero = 10;
 	while (numero > 0)
 	{
 		console.log(numero);
